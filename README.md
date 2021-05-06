@@ -11,6 +11,8 @@
 
 Pronto.
 
+-Para acessar pelo celular, basta permitir o servidor Apache através do firewall e coloque o IP local IPV4 da máquina onde você está hospedando localmente sua aplicação.
+
 
 [ENGLISH]
 
@@ -19,10 +21,12 @@ Pronto.
 
 -I used the xampp server to run the application locally.
 
--To run on your machine just install XAMPP in its latest version or install Apache via VsCode, after that if you have installed XAMPP you will place the files inside a folder called to-do-list inside the Xampp htdocs folder, then run xampp and activate the Apache server and access in your browser http: // localhost / to-do-list /.
+-To run on your machine just install XAMPP in its latest version or install Apache via VsCode, after that if you have installed XAMPP you will place the files inside a folder called to-do-list inside the Xampp htdocs folder, then run xampp and activate the Apache server and access in your browser http://localhost/to-do-list/.
 
--The file to-do-list.SQL is the database of the Web application, to integrate it you will start the XAMPP MYSQL server and access http: // localhost / phpmyadmin /, there you will go to "import" and right after "choose file" in "File to import" and execute.
+-The file to-do-list.SQL is the database of the Web application, to integrate it you will start the XAMPP MYSQL server and access http://localhost/phpmyadmin/, there you will go to "import" and right after "choose file" in "File to import" and execute.
 
 Ready.
+
+-To access by cell phone, simply allow the Apache server through the firewall and place the local IPV4 IP of the machine where you are hosting your application locally.
 
 
