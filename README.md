@@ -13,9 +13,14 @@ Pronto.
 
 -Para acessar pelo celular, basta permitir o servidor Apache através do firewall e coloque o IP local IPV4 da máquina onde você está hospedando localmente sua aplicação.
 
+-Caso o navegador recuse a requisição, vá no apache> config> Apache (httpd-xampp.conf) e altere o documento.
+    <Directory "C:/xampp/phpMyAdmin">
+       AllowOverride AuthConfig
+       **Require local**   Replace with   **Require all granted**
+       ErrorDocument 403 /error/XAMPP_FORBIDDEN.html.var
+   </Directory>```
 
 [ENGLISH]
-
 
 -Web application, front-end and back-end;
 
@@ -29,4 +34,9 @@ Ready.
 
 -To access by cell phone, simply allow the Apache server through the firewall and place the local IPV4 IP of the machine where you are hosting your application locally.
 
-
+-If the browser refuses the request, go to apache> config> Apache (httpd-xampp.conf) and change the document.
+    <Directory "C:/xampp/phpMyAdmin">
+       AllowOverride AuthConfig
+       **Require local**   Replace with   **Require all granted**
+       ErrorDocument 403 /error/XAMPP_FORBIDDEN.html.var
+   </Directory>```
