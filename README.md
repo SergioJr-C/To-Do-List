@@ -20,7 +20,7 @@ Pronto.
        AllowOverride AuthConfig
        **Require local**   Altere para   **Require all granted**
        ErrorDocument 403 /error/XAMPP_FORBIDDEN.html.var
-   </Directory>```
+   </Directory>
    
    
 
@@ -45,4 +45,4 @@ Ready.
        AllowOverride AuthConfig
        **Require local**   Replace with   **Require all granted**
        ErrorDocument 403 /error/XAMPP_FORBIDDEN.html.var
-   </Directory>```
+   </Directory>
