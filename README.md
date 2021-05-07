@@ -13,7 +13,7 @@ Pronto.
 
 -Para acessar pelo celular, basta permitir o servidor Apache através do firewall e coloque o IP local IPV4 da máquina onde você está hospedando localmente sua aplicação.
 
--Caso você tente rodar a aplicação em outro dispositivo na mesma rede e a requisição seja recusada, vá no apache> config> Apache (httpd-xampp.conf) e altere o documento:
+-Caso você tente rodar a aplicação em outro dispositivo na mesma rede (no celular por exemplo) e a requisição seja recusada, vá no apache> config> Apache (httpd-xampp.conf) e altere o documento:
 
 
     <Directory "C:/xampp/phpMyAdmin">
@@ -38,7 +38,7 @@ Ready.
 
 -To access by cell phone, simply allow the Apache server through the firewall and place the local IPV4 IP of the machine where you are hosting your application locally.
 
--If you try to run the application on another device on the same network and the request is refused, go to apache> config> Apache (httpd-xampp.conf) and change the document:
+-If you try to run the application on another device on the same network (on your cell phone for example) and the request is refused, go to apache> config> Apache (httpd-xampp.conf) and change the document:
     
     
     <Directory "C:/xampp/phpMyAdmin">
